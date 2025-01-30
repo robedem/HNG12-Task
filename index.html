@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Profile Card</h1>
+        </header>
+        <main>
+            <section class="profile">
+                <img src="profile.jpg" alt="Slack Profile Picture" data-testid="ProfilePicture">
+                <div class="info">
+                    <p>Full name: <span data-testid="fullname"><b>Roberto Roberto Edem</b></span></p>
+                    <p>Job title: <span data-testid="jobTitle"><b>Full Stack Developer</b></span></p>
+                    <p>Slack Display Name: <span data-testid="slackDisplayName"><b>Roberto_</b></span></p>
+                    <p>Slack Email: <span data-testid="slackEmail"><a href="mailto:edemroberto57@gmail.com">edemroberto57@gmail.com</a></span></p>
+                </div>
+            </section>
+            <section class="shortbio" data-testid="shortbio">
+                <h2>About Me</h2>
+                <p>
+                    Hello, my name is Roberto Roberto Edem. I am a computer engineering student based in Akwa Ibom State.
+                    I am a full-stack developer with a passion for web development. I am a fast learner and always eager to explore new technologies and improve my skills.
+                    I have experience in front-end and back-end development, building efficient and user-friendly applications. With a strong foundation in engineering principles,
+                    I stay updated with industry trends and strive to create impactful digital solutions in software development.
+                </p>
+            </section>
+            <section class="links">
+                <h2>Join HNG here</h2>
+                <ul>
+                    <li><a target="_blank" href="https://hng.tech/learn" data-testid="hngLink">HNG Learn</a></li>
+                    <li><a target="_blank" href="https://keyword.dog" data-testid="keywordLink">Keyword Dog</a></li>
+                    <li><a target="_blank" href="https://scrapeanyweb.site" data-testid="scrapeanywebLink">Scrape Any Web</a></li>
+                </ul>
+            </section>
+            <section class="links" data-testid="socialLinks">
+                <h2>Connect with me</h2>
+                <ul>
+                    <li><a target="_blank" href="https://www.instagram.com/syntaxslayer">instagram</a></li>
+                    <li><a target="_blank" href="https://github.com/robedem">GitHub</a></li>
+                    <li><a target="_blank" href="https://x.com/Superfans_R?t=lDuKEOFIvPixWj9V0Oenfw&s=08">Twitter</a></li>
+                </ul>
+            </section>
+        </main>
+        <footer>
+            <p class="datetime">Current Time (UTC): <span data-testid="currentTimeUTC"></span> | Current Day: <span data-testid="currentDay"></span></p>
+        </footer>
+    </div>
+</body>
+</html>
+
+
