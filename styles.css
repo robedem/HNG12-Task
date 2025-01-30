@@ -101,6 +101,15 @@ footer .datetime {
         padding: 10px;
     }
 
+    .shortbio p {
+        font-size: 14px; /* Adjust text size for mobile */
+        line-height: 1.6;
+    }
+
+    .shortbio h2 {
+        font-size: 18px; /* Adjust heading size */
+    }
+
     .profile {
         flex-direction: column;
         align-items: center;
